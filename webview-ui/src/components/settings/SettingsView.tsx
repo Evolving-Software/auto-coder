@@ -471,8 +471,8 @@ const SettingsView = ({ onDone }: SettingsViewProps) => {
 									<input
 										type="range"
 										min="0"
-										max="5000"
-										step="100"
+										max="5000000"
+										step="1000"
 										value={writeDelayMs}
 										onChange={(e) => setWriteDelayMs(parseInt(e.target.value))}
 										style={{
